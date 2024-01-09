@@ -1,2 +1,73 @@
+header, footer, button {
+    background-color: rgb(33, 32, 32);
+    color: white;
+   
+}
+ 
+h1, h2, footer p, #fotoGrande {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
 
-  
+main {
+    padding: 0 20px;
+
+}
+#botones, button {
+    padding: 5px;
+    margin: 3px;
+}
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#galeria div{ 
+    width: 200px;    
+    padding: 15px;
+    
+}
+
+#fotogrande {
+    width: 20vw;
+}
+
+#galeria img, #fotoGrande img{
+    width: 100%;
+}
+
+footer, header {
+    padding: 5px;
+}
+/*//////////////////////////////////////////////
+                        768
+///////////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+    #galeria {
+        justify-content: center;
+    }
+
+    #galeria div{ 
+        width: 300px;    
+        padding: 10px 20px;
+        
+    }
+    #fotogrande {
+
+    }
+}
+/*//////////////////////////////////////////////
+                        768
+///////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////
+                        992
+///////////////////////////////////////////////*/
+@media screen and (min-width: 992px){
+
+}
+
+/*//////////////////////////////////////////////
+                        992
+///////////////////////////////////////////////*/

@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+      "checkJs": true
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+  }
+  //Habilita el chequeo de errores en archivos JS
